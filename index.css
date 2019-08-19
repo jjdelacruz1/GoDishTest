@@ -13,7 +13,14 @@
 
 .mainSection {
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
+}
+
+.title {
+  color: red;
+  align-items: center;
+  font-size: 3em;
 }
 
 .topMiddle {

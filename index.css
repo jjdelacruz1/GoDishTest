@@ -1,0 +1,25 @@
+#mainTop {
+  display: flex;
+  border: 1px solid black;
+}
+
+.container {
+  background-image: url("Images/background.png");
+}
+.topSection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mainSection {
+  display: flex;
+  border: 1px solid black;
+}
+
+.topMiddle {
+  flex-direction: column;
+}
+
+.topButton {
+  height: 50%;
+}

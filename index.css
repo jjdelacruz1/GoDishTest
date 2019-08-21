@@ -22,8 +22,7 @@ header {
 
 .container {
   background-image: url("Images/background.png");
-  object-fit: cover;
-  width: 100%;
+  background-size: cover;
 }
 .topSection {
   display: flex;
@@ -92,17 +91,17 @@ li {
   color: black;
 }
 
-.leftSide {
+.leftSide, .rightSide {
   display: flex;
   flex: 1;
   flex-direction: column;
 }
 
-.rightSide {
+/* .rightSide {
   display: flex;
   flex: 1;
   flex-direction: column;
-}
+} */
 
 .number {
   display: flex;

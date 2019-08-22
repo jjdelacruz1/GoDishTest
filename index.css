@@ -7,6 +7,10 @@ header {
   background: black;
 }
 
+.logo {
+  height: 125px;;
+}
+
 .fa-star {
   color: green;
 }
@@ -18,6 +22,7 @@ header {
 #mainTop {
   display: flex;
   border: 1px solid black;
+  flex: 1;
 }
 
 .container {
@@ -45,14 +50,20 @@ header {
 }
 
 .titleTop {
-  /* display: flex; */
   align-items: center;
   justify-content: center;
   font-size: 2.5em;
+  text-align: center;
 }
 
 .topMiddle {
   flex-direction: column;
+  justify-content: flex-end;
+}
+
+.topMiddle2 {
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .topButton {
@@ -97,17 +108,10 @@ li {
   flex-direction: column;
 }
 
-/* .rightSide {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-} */
-
 .number {
   display: flex;
   background-color: red;
   color: white;
-  /* width: 60%; */
   justify-content: center;
   align-items: center;
 }
